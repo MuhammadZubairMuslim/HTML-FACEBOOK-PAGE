@@ -1,3 +1,6 @@
+body{
+	background-color: #e6e9f2;
+}
 .header{
 	height: 80px;
 	width: 100%;
@@ -58,8 +61,101 @@
 	background-color: #e6e9f2;
 	
 }
-.fbpare{
+.textfb{
+	width: 69%;
+	float: left;
+}
+.fbpara{
 	width: 50%;
 	float: left;
 	margin-left: 20px;
+	color:#425a98;
+}
+.ConnectWord{
+	width: 80%;
+	height: 50%;
+	margin-left: 50px;
+}
+.account{
+	width: 30%;
+	float: left;
+}
+.textCreateAccount{
+	font-weight: bold;
+}
+.textItsFree{
+	font-size: 20px;
+}
+.FirstName{
+	padding: 3px;
+}
+.Surname{
+	margin-left: 10px;
+	padding: 3px;
+}
+.textMobileNumber{
+	margin-top: 10px;
+	padding: 3px;
+	width: 92%;
+}
+.textReMobileNumber{
+    margin-top: 10px;
+	padding: 3px;
+	width: 92%;
+}
+.NewPassword{
+	 margin-top: 10px;
+	padding: 3px;
+	width: 92%;
+}
+.Birthday{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.SelectDay{
+	float: left;
+	width: 50px;
+	padding: 2px;
+	font-size: 12px;
+}
+.SelectMonth{
+	float: left;
+	width: 110px;
+	padding: 2px;
+	font-size: 12px;
+}
+.SelectYear{
+	float: left;
+	width: ;
+	padding: 2px;
+	font-size: 12px;
+}
+.Why{
+	float: left;
+	font-size: 10px;
+	padding-left: 10px;
+	margin-top: 0px;
+}
+.Why:hover{
+	color: red;
+}
+.male{
+	float: left;
+}
+.policy{
+	font-size: 15px;
+
+}
+.terms{
+	text-decoration: none;
+}
+.terms:hover{
+	color: red;
+}
+.CearteAccount{
+	background-color: green;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	color: white;
 }
