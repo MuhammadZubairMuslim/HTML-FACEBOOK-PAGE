@@ -2,17 +2,16 @@
 <head>
 <title>Facebook Home Page</title>
 <link rel="stylesheet" href="assets/css/fb.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#headerContent").load("header.html"); 
+          });
+          </script> 
 </head>
 <body>
-	<div class="header">
-	  <h1 class="fblogo">facebook<h1>
-	  	<h6 class="EmailorPhone">Email or Phone</h6>
-	  	<input class="text" type="text">
-	  	<h6 class="Pswrd">Password</h6>
-	  	<input class="password" type="password">
-	  	<a href="#"><h4 class="Forgetaccount">Forgotten account?</h4></a>
-	  	<input class="button" type="submit" value="login">	
-	</div><br>
+	
+	<div id="headerContent"></div>
 
 	<div class="main">
 		<div class="textfb">
